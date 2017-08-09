@@ -7,12 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% String contenidoCampoTexto = (String)
+<%-- <% String contenidoCampoTexto = (String)
 	request.getAttribute("contenidoCampoTexto");
-%>
+%> --%>
 
-<h1>ContenidoCampotexto Paso3 <%= contenidoCampoTexto %>
-</h1>
+<%-- <h1>cct p3 <%= contenidoCampoTexto %> --%>
+cctp3<h1>${contenidoCampoTexto}</h1>
 
 </body>
 </html>

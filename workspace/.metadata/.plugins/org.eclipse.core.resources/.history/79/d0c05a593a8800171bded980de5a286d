@@ -55,26 +55,6 @@ public class GestorDePersonas {
 	}
 	
 	public Persona recuperaPersona(long id){
-		String sql = "select id, nombre, apellido, sexo, email, localidad,escasado, notas from personas";
-		Connection connection =null;
-		
-		
-		if(textoBuscar != null)
-			sql = sql + "WHERE nombre like ? or apellido like ?";
-		
-		PreparedStatement preparedStatement = connection.preparedStatement(sql);
-		if(textoBuscar != null){
-			preparedStament.setString(1,"%"+textoBuscar+"%");
-			preparedStament.setString(2,"%"+textoBuscar+"%");
-		}
-		
-		ResultSet resultado = preparedStatement.executeQuery();
-		while(resultado.next()){
-			p=new Persona();
-			p.setId(resultado.getLong("id"));
-			p.setNombre(resultado.getString("nombre));"
-					+ "
-		}
 		
 		return null;
 	}

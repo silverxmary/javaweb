@@ -703,3 +703,7 @@
 2017-08-23 15:48:45,404 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\SoyFelizConJavaWeb\src\main\resources
 2017-08-23 15:48:45,404 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-08-23 15:48:45,404 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\SoyFelizConJavaWeb\src\test\resources
+2017-08-23 16:36:24,840 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 16:36:24,840 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\SoyFelizConJavaWeb\src\main\resources
+2017-08-23 16:36:24,840 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-23 16:36:24,840 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\SoyFelizConJavaWeb\src\test\resources

@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import edu.curso.java.bo.Persona;
+import edu.curso.java.gestores.GestorDePersonas;
 
 /**
  * Servlet implementation class PersonasServlet
@@ -64,7 +65,8 @@ public class AltaPersonasServlet extends HttpServlet {
 		persona.setNotas(notas);
 		persona.setSexo(sexo);
 		
-		
+		GestorDePersonas gestor = new GestorDePersonas();
+		gestor.altaDePersona(persona);
 		
 		request.setAttribute("persona", persona);
 		

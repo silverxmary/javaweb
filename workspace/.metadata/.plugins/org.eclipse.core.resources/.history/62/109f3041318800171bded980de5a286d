@@ -1,0 +1,34 @@
+package edu.curso.java.gestores;
+ import java.util.ArrayList;
+import java.sql.*;
+import java.util.*;
+
+import edu.curso.java.bo.Persona;
+
+public class GestorDePersonas {
+
+	
+	public long altaDePersona(Persona p){
+		
+		return 0;
+	}
+	
+	public void actualizaPersona(Persona p){
+		
+	}
+	
+	public void borrarPersona(long id){
+		
+	}
+	
+	public Persona recuperaPersona(long id){
+		
+		return null;
+	}
+	
+	public ArrayList<Persona> recuperarPersonas(String p ){
+		ArrayList<Persona> personas = new ArrayList<>();
+		
+		return personas;
+	}
+}

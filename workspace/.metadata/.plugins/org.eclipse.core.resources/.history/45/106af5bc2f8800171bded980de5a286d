@@ -1,0 +1,12 @@
+package edu.curso.java.gestores;
+ import edu.curso.java.bo.Persona;
+
+public class GestorDePersonas {
+
+	
+	public long altaDePersona(){
+		
+		return 0;
+	}
+	
+}

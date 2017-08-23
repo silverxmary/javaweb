@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import edu.curso.java.bo.Persona;
+
 /**
  * Servlet implementation class PersonasServlet
  */
@@ -55,6 +57,16 @@ public class AltaPersonasServlet extends HttpServlet {
 		 if(campoEsCasado==null){campoEsCasado="No esta casado";}else{campoEsCasado="EsCasado";}
 		Persona persona = new Persona();
 		persona.setNombre(nombre);
+		persona.setApellido(apellido);
+		persona.setCampoEsCasado(campoEsCasado);
+		persona.setEmail(email);
+		persona.setLocalidad(localidad);
+		persona.setNotas(notas);
+		persona.setSexo(sexo);
+		
+		
+		
+		request.setAttribute("persona", persona);
 		
 		/*request.setAttribute("nombreCont", nombre);
 		request.setAttribute("apellidoCont", apellido);

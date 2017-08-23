@@ -13,19 +13,19 @@
     <label for="apellidoS">Apellido: </label>${persona.apellido}
   </div>
   <div class="form-group">
-    <label for="apellidoS">Email: </label>${emailCont}
+    <label for="apellidoS">Email: </label>${persona.email}
   </div>
   <div class="form-group">
-    <label for="apellidoS">sexo: </label>${sexoCont}
+    <label for="apellidoS">sexo: </label>${persona.sexo}
   </div>
   <div class="form-group">
-    <label for="apellidoS">Notas: </label>${notasCont}
+    <label for="apellidoS">Notas: </label>${persona.notas}
   </div>
   <div class="form-group">
-    <label for="apellidoS">Es Casado: </label>${escasado}
+    <label for="apellidoS">Es Casado: </label>${persona.campoEsCasado}
   </div>
   <div class="form-group">
-    <label for="apellidoS">Localidad: </label>${localidadCont}
+    <label for="apellidoS">Localidad: </label>${persona.localidad}
   </div>
 
    <jsp:include page="template_inferior.jsp"></jsp:include>

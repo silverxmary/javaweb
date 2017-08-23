@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4224078347.index
+\SoyFelizConJavaWeb\src
+C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\771829977.index
+\SoyFelizConJavaWeb\src
+C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1193574195.index
+\SoyFelizConJavaWeb\src

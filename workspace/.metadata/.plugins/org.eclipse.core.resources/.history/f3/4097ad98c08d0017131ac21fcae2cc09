@@ -1,0 +1,48 @@
+package edu.curso.java.listadoDePersonas;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import edu.curso.java.gestores.GestoresDePersonas;
+import edu.curso.java.servlets.Persona;
+
+/**
+ * Servlet implementation class ListadoDePersonas
+ */
+@WebServlet("/ListadoDePersonas")
+public class ListadoDePersonas extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ListadoDePersonas() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		GestoresDePersonas gestorDePersonas = new GestoresDePersonas();
+		String textoBuscar = request.getParameter("textoBuscar");
+		ArrayList<Persona> personas = gestorDePersonas.recuperarPersonas(textoBuscar);
+		request.setAttribute("personas", personas);
+		request.getRequestDispatcher("Personas/listado_personas.jsp").forward(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+	}
+
+}

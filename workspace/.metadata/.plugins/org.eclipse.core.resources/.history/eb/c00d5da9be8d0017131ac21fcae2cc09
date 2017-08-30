@@ -1,0 +1,12 @@
+<%@page import="edu.curso.java.servlets.Persona"%>
+<%@page import="java.util.ArrayList"%>
+	<jsp:include page="../template_superior.jsp"></jsp:include>
+	
+	<form method="get" action="ListadoDePersonas">
+		<input type="text" name="textoBuscar" placeholder="texto para buscar">
+		<button type="submit">Buscar</button>
+	</form>
+	
+	<div id="divContenedor"></div>
+	
+	<jsp:include page="../template_inferior.jsp"></jsp:include>

@@ -6,5 +6,5 @@
     <br>
     valor de nombre <%=request.getParameter("nombre") %>
     <%
-    Thread.sleep(3000);
+    Thread.sleep(2000);
     %>

@@ -15,7 +15,7 @@ public class GestoresDePersonas {
 			connection = DriverManager.getConnection(url, "root", ""); //Recupera una nueva connection
 			connection.setAutoCommit(false);
 		
-			String sql = "INSERT INTO `ejemplojdbc`.`personas` (nombre, apellido, sexo, email, localidad, esCasado, nota)"
+			String sql = "INSERT INTO `ejemplojdbc`.`personas` (nombre, apellido, sexo, email, localidad, escasado, notas)"
 						+ " " +  "VALUES (?, ?, ?, ?, ?, ?, ? );";
 			
 			
@@ -27,6 +27,7 @@ public class GestoresDePersonas {
 			preparedStatement.setString(3, p.getSexo());
 			preparedStatement.setString(4, p.getEmail());
 			preparedStatement.setString(5, p.getCiudad());
+			
 			preparedStatement.setString(6, p.getEsCasado());
 			preparedStatement.setString(7, p.getNota());
 			

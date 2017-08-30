@@ -36,9 +36,19 @@ public class AltaPersona extends HttpServlet {
 		String email = request.getParameter("email");
 		String sexo = request.getParameter("sexo");
 		String ciudad= request.getParameter("ciudad");
-		String nota = request.getParameter("nota");
+		String notas = request.getParameter("notas");
 		String esCasado = request.getParameter("esCasado");
 		
+		if(sexo == "f"){ 
+			sexo= "Femenino"; 
+		}else{ 
+			if(sexo =="m") {
+				sexo = "Masculino"; 
+			}else{
+				sexo = "no selecciono sexo"; 
+				}
+		}
+		 if(esCasado==null){esCasado="No esta casado";}else{esCasado="EsCasado";}
 		GestoresDePersonas gestorDePersonas = new GestoresDePersonas();
 		
 		Persona persona = new Persona();
@@ -48,7 +58,7 @@ public class AltaPersona extends HttpServlet {
 		persona.setEmail(email);
 		persona.setSexo(sexo);
 		persona.setCiudad(ciudad);
-		persona.setNota(nota);
+		persona.setNota(notas);
 		persona.setEsCasado(esCasado);
 		
 		gestorDePersonas.altaDePersona(persona);

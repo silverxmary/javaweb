@@ -7,7 +7,7 @@ public class Persona {
 	private String email;
 	private String sexo;
 	private String ciudad;
-	private String nota;
+	private String notas;
 	private String esCasado;
 
 	public String getNombre() {
@@ -51,11 +51,11 @@ public class Persona {
 	}
 
 	public String getNota() {
-		return nota;
+		return notas;
 	}
 
-	public void setNota(String nota) {
-		this.nota = nota;
+	public void setNota(String notas) {
+		this.notas = notas;
 	}
 
 	public String getEsCasado() {

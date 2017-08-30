@@ -72,8 +72,8 @@ public class GestorDePersonas {
 		while(resultado.next()){
 			p=new Persona();
 			p.setId(resultado.getLong("id"));
-			p.setNombre(resultado.getString("nombre));"
-					+ "
+			p.setNombre(resultado.getString("nombre"));
+					
 		}
 		
 		return null;

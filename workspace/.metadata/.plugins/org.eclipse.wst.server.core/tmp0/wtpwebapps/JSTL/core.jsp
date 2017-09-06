@@ -1,6 +1,9 @@
+<%@page import="edu.cursoweb.bo.Producto"%>
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@page import="java.util.ArrayList" %>
+
 <%@ taglib prefix = "c" uri="http://java.sun.com/jsp/jstl/core" %>
    
    <%
@@ -14,6 +17,10 @@
    nombres.add("Juan");
    nombres.add("Maria");
    request.setAttribute("nombres", nombres);
+   
+   ArrayList<String> productos = new ArrayList<String>();
+   Producto produc = new Producto(); 
+   
    
    
    %>
@@ -78,6 +85,18 @@
 	</c:forTokens>		
 	</td>
 </tr>
+
+<tr>
+<td valing="top"><b>Producto:</b></td>
+	<td>
+	<c:forEach items="${productos}" var="p"> 
+	id: <c:out value="${p.id}" /> <br>
+	nombre: <c:out value="${p.nombre}" /> <br>
+	costo: <c:out value="${p.costo}" /> <br>
+	</c:forEach>		
+	</td>
+</tr>
+
 </table>
 </body>
 </html>

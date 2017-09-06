@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@page import="java.util.ArrayList" %>
+<%@ taglib prefix = "c" uri="http://java.sun.com/jsp/jstl/core" %>
+   
+   <%
+   request.setAttribute("textoRequest", "hola Mundo JSTL (Request)");
+   session.setAttribute("textoSession", "hola Mundo JSTL (Session)");
+   application.setAttribute("textoAplication", "hola Mundo JSTL (Aplication)");
+
+
+   ArrayList<String> nombres = new ArrayList<String>();
+   nombres.add("Pepe");
+   nombres.add("Juan");
+   nombres.add("Maria");
+   request.setAttribute("nombres", nombres);
+   
+   
+   %>
+   
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table border = '1'>
+<tr>
+	<td valing="top"><b>out:</b></td>
+	<td>
+		<c:out value="${textoRequest}"/> <br>
+		<c:out value="${textoSession}"/><br>
+		<c:out value="${textoAplication}"/><br>
+		<c:out default="no hay nada en la var xyz" value="${xyz}"/><br>
+	</td>
+</tr>
+<tr>
+<td valing="top"><b>url:</b></td>
+	<td>
+		<a href='<c:url value="/JSTL/core.jsp"/>'>ir al core</a>
+		<br>
+		<a href='<c:url value="/JSTL/core.jsp"><c:param name="texto" value="textoRequest"/></c:url>'>urlCon Parametros</a>
+		<c:out value="${param['texto']}" default=""></c:out> <br>
+		
+	</td>
+</tr>
+
+
+
+</table>
+</body>
+</html>

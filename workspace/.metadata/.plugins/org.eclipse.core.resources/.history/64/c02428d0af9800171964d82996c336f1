@@ -1,0 +1,29 @@
+package edu.curso.java.spring.mvc;
+
+import org.springframework.ui.Model;
+import org.springframework.stereotype.*;
+import org.springframework.web.bind.annotation.*;
+
+@Controller
+@RequestMapping(value="/holamundo")
+
+public class HolaMundoController {
+	
+	//   /holamundo/saludar1.html
+	@RequestMapping(value="/saludar1", method = RequestMethod.GET)
+	public String saludar(Model model){
+		model.addAttribute("texto", "Hola mundo Spring MVC");
+		return null;
+	}
+	
+	
+	
+//  /holamundo/saludar1.html
+	@RequestMapping(value="/saludar1", method = RequestMethod.GET)
+	public String saludar2(Model model){
+		model.addAttribute("texto", "Hola mundo Spring MVC");
+		return null;
+	}
+	
+	
+}

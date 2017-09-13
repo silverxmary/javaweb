@@ -1,3 +1,2 @@
 #Tomcat publish data
-#Wed Sep 06 16:18:07 GMT-03:00 2017
-org.eclipse.jst.j2ee.server\:mysql-connector-java-5.1.43-bin=WEB-INF/lib/mysql-connector-java-5.1.43-bin.jar
+#Wed Sep 13 14:25:42 GMT-03:00 2017

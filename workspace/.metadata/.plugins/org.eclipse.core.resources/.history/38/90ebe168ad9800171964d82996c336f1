@@ -1,0 +1,5 @@
+package edu.curso.java.spring.mvc;
+
+public class HolaMundoController {
+
+}

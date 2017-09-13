@@ -1,0 +1,30 @@
+package edu.curso.java.spring.mvc.form;
+
+import javax.validation.constraints.Size;
+
+import org.hibernate.validator.constraints.NotEmpty;
+
+public class PersonaForm {
+
+	@NotEmpty
+	@Size(min = 3, max = 110)
+	private String nombre;
+	
+	@NotEmpty
+	@Size(min = 3, max = 110)
+	private String apellido;
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getApellido() {
+		return apellido;
+	}
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+	
+}

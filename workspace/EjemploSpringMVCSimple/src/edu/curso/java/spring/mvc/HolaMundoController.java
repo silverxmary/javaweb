@@ -1,8 +1,14 @@
 package edu.curso.java.spring.mvc;
 
+import javax.validation.Valid;
+
+//import org.hibernate.validator.Valid;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
+
+import edu.curso.java.spring.mvc.form.PersonaForm;
 
 @Controller
 @RequestMapping(value="/holamundo")
@@ -42,4 +48,39 @@ public class HolaMundoController {
 		return "/holamundo/saludar1";
 	}
 	
+	
+	/////para personas mostrarform
+	@RequestMapping(value="/mostrarform", method = RequestMethod.GET)
+	public String mostrarForm( Model model){
+		PersonaForm personaForm = new PersonaForm();
+		personaForm.setNombre("sin datos...");
+		personaForm.setApellido("sin atos");
+		model.addAttribute("personaForm", personaForm );
+		//return null;
+		return "/holamundo/form";
+	}
+	
+	
+	
+	/////guardarform
+	/*@RequestMapping(value="/guardarform", method = RequestMethod.POST)
+	public String guardarForm(@ModelAttribute("personaForm") PersonaForm personaForm, Model model){
+		model.addAttribute("texto", "Hola" + personaForm.getNombre() + "  "+ personaForm.getApellido());	
+	//return null;
+		return "/holamundo/saludar1";
+	}*/
+	
+	
+	@RequestMapping(value="/guardarform", method = RequestMethod.POST)
+	public String guardarForm(@Valid PersonaForm personaForm,BindingResult bindingResult, Model model ){
+		
+		if(bindingResult.hasErrors()){
+			return "/holamundo/saludar1";
+		}
+		else{
+		model.addAttribute("texto", "Hola" + personaForm.getNombre() + "  "+ personaForm.getApellido());	
+	//return null;
+		return "/holamundo/saludar1";
+		}
+	}
 }

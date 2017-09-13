@@ -101,7 +101,6 @@ INDEX VERSION 1.126+C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace
 2544752390.index
 3551980818.index
 3123634649.index
-3470074000.index
 2827226876.index
 653687161.index
 2164888290.index

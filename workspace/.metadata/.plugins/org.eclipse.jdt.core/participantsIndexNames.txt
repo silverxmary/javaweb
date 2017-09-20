@@ -7,6 +7,8 @@ C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.js
 \Struts2HolaMundo\src
 C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\785143686.index
 \nico java web\src
+C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2424177063.index
+\Struts2UI\src
 C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286319862.index
 \JSTL\src
 C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\301721810.index

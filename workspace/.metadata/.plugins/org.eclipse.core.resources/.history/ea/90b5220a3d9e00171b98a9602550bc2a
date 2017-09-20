@@ -1,0 +1,5 @@
+package edu.curso.struts2.models;
+
+public class Persona {
+
+}

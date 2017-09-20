@@ -1,0 +1,94 @@
+package edu.curso.struts2.models;
+
+import java.util.ArrayList;
+
+public class Persona {
+	private String userName; 
+	private String password;
+	private String gender;
+	private String country;
+		
+	private String about;
+	private String communityList;
+	private boolean mailingList;
+	
+	
+	public Persona(){};
+	
+	public Persona(String userName, String password, String gender,
+			String country, String about, String communityList,
+			boolean mailingList) {
+		super();
+		this.userName = userName;
+		this.password = password;
+		this.gender = gender;
+		this.country = country;
+		this.about = about;
+		this.communityList = communityList;
+		this.mailingList = mailingList;
+	}
+	
+	
+	public Persona(String userName2, String password2, String gender2,
+			String country2, String country3, String about2,
+			ArrayList<String> communityList2, Boolean mailingList2) {
+		super();
+		this.userName = userName;
+		this.password = password;
+		this.gender = gender;
+		this.country = country;
+		this.about = about;
+		this.communityList = communityList;
+		this.mailingList = mailingList;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public String getAbout() {
+		return about;
+	}
+	public void setAbout(String about) {
+		this.about = about;
+	}
+	public String getCommunityList() {
+		return communityList;
+	}
+	public void setCommunityList(String communityList) {
+		this.communityList = communityList;
+	}
+	public boolean isMailingList() {
+		return mailingList;
+	}
+	public void setMailingList(boolean mailingList) {
+		this.mailingList = mailingList;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

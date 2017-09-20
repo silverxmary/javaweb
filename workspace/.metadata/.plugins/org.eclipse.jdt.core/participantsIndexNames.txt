@@ -1,13 +1,15 @@
 INDEX VERSION 1.126
-C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\785143686.index
+C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3993921825.index
 \nico java web\src
-C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1138675789.index
-\EjemploSpringMVCSimple\src
-C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\301721810.index
-\EjemploSpringMVCSimple\src
-C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286319862.index
+C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3600488674.index
+\nico java web\src
+C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1443083676.index
+\Struts2HolaMundo\src
+C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\785143686.index
+\nico java web\src
+C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286319862.index
 \JSTL\src
-C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3600488674.index
-\nico java web\src
-C:\Users\educacionit\Desktop\Nueva carpeta\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3993921825.index
-\nico java web\src
+C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\301721810.index
+\EjemploSpringMVCSimple\src
+C:\Users\educacionit\Desktop\javaweb\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1138675789.index
+\EjemploSpringMVCSimple\src

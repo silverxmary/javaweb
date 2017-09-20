@@ -45,7 +45,7 @@ public class Calculadora extends ActionSupport  {
 		if (getOperacion().equals("dividir")){
 			total = nu1/nu2;
 		}
-		setMessage("resultado !!!! " + total);
+		setMessage("resultado !!!! " + nu1+nu2);
         addActionMessage("Esto es un msg de strtus...");
 		
 		 return "SUCCESS";

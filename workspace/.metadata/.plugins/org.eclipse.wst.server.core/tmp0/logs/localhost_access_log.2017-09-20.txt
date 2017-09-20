@@ -34,3 +34,12 @@
 127.0.0.1 - - [20/Sep/2017:15:59:20 -0300] "GET / HTTP/1.1" 404 961
 0:0:0:0:0:0:0:1 - - [20/Sep/2017:15:59:28 -0300] "GET /Struts2HolaMundo/index.jsp HTTP/1.1" 200 1856
 0:0:0:0:0:0:0:1 - - [20/Sep/2017:15:59:37 -0300] "POST /Struts2HolaMundo/Calculadora.action HTTP/1.1" 200 496
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:20:37 -0300] "GET /Struts2HolaMundo/index.jsp HTTP/1.1" 200 1856
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:20:43 -0300] "POST /Struts2HolaMundo/Calculadora.action HTTP/1.1" 200 496
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:21:05 -0300] "GET /Struts2HolaMundo/index.jsp HTTP/1.1" 200 1856
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:21:10 -0300] "POST /Struts2HolaMundo/Calculadora.action HTTP/1.1" 200 492
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:21:15 -0300] "POST /Struts2HolaMundo/Calculadora.action HTTP/1.1" 200 490
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:21:17 -0300] "POST /Struts2HolaMundo/Calculadora.action HTTP/1.1" 200 494
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:21:20 -0300] "POST /Struts2HolaMundo/Calculadora.action HTTP/1.1" 200 490
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:21:25 -0300] "POST /Struts2HolaMundo/Calculadora.action HTTP/1.1" 200 490
+0:0:0:0:0:0:0:1 - - [20/Sep/2017:16:21:55 -0300] "POST /Struts2HolaMundo/Calculadora.action HTTP/1.1" 200 507

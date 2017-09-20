@@ -34,18 +34,19 @@ public class Calculadora extends ActionSupport  {
 		int nu1 = Integer.parseInt(getN1());
 		int nu2 = Integer.parseInt(getN2());
 		int total = 0;
-		if (getOperacion().equals("sumar")){
+		if (getOperacion()=="sumar"){
 			total = nu1+nu2;
-		}else if (getOperacion().equals("restar")){
+		}
+		if (getOperacion()=="restar"){
 			total = nu1-nu2;
 		}
-		if (getOperacion().equals("multiplicar")){
+		if (getOperacion()=="multiplicar"){
 			total = nu1*nu2;
 		}
-		if (getOperacion().equals("dividir")){
+		if (getOperacion()=="dividir"){
 			total = nu1/nu2;
 		}
-		setMessage("resultado !!!! " + total);
+		setMessage("resultado !!!! " + nu1+nu2);
         addActionMessage("Esto es un msg de strtus...");
 		
 		 return "SUCCESS";
